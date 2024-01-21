@@ -13,7 +13,4 @@ const store = configureStore({
 
 setupListeners(store.dispatch);
 
-// нужна ли типизация?
-export type Rootstate = ReturnType<typeof store.getState>;
-
 export default store;
