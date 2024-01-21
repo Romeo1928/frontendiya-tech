@@ -38,7 +38,6 @@ export const useSearchUser = (): UseSearchUserReturnType => {
   );
 
   const handleInputSearch = (e: ChangeEvent<HTMLInputElement>): void => {
-    e.preventDefault();
     setSearchQuery(e.currentTarget.value.trim());
   };
 
